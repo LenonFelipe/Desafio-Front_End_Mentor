@@ -1,0 +1,928 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+
+body{
+    background: hsl(240, 28%, 54%);
+    overflow-x: hidden;
+    position: relative;
+    height: 30px;
+}
+li{
+    color: hsl(240, 88%, 10%);
+    transition: color 0.3s;
+    letter-spacing: 1px;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family:"Inter", sans-serif;
+}
+li:hover{
+    color: hsl(5, 85%, 63%);
+}
+ul{
+    width: 600px;
+    position: relative;
+    left: 655px;
+    top: 40px;
+}
+svg{
+    position: relative;
+}
+article{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: -1850px;
+    position: relative;
+    z-index:1;
+    left: 100px;
+    width: 358px;
+    height: 1000px;
+    background: hsl(240, 97%, 15%);
+}
+.menuX{
+    position: relative;
+    left: 55px;
+    top: -190px;
+    height: 70px;
+    stroke: hsl(5, 85%, 63%);
+    stroke-width: 3;
+}
+a{
+    position: relative;
+    left: -30px;
+    top: -150px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+    font-family: "Inter", sans-serif;
+}
+.fundoMenu{
+    display: none;
+    top: -2900px;
+    left: 9000px;
+    position: relative;
+    height: 3000px;
+    width: 900px;
+    background: rgba(47, 47, 47, 0.461);
+}
+a:hover{
+    color:hsl(5, 85%, 63%) ;
+}
+.icon{
+    height: 65px;
+    left: 110px;
+    top: 80px;
+}
+.menu{
+    display: none; 
+}
+.image1{
+    position: relative;
+    left: 110px;
+    top: 70px; 
+    height: 300px;
+}
+h1{
+    position: relative;
+    left: 110px;
+    top: 60px;
+    line-height: 1;
+    width: 400px;
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -4px;
+}
+.p1{
+    width: 360px;
+    position: relative;
+    left: 478px;
+    top: -190px;
+    font-size: 18px;
+    font-family:"Inter", sans-serif;
+}
+button{
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 160px;
+    background: hsl(240, 100%, 5%);
+    position: relative;
+    left: 480px;
+    top: -170px;
+}
+button:hover{
+    background: hsl(5, 85%, 63%) ;
+}
+aside{
+    padding: 30px;
+    position: relative;
+    left: 900px;
+    top: -745px;
+    width: 315px;
+    height: 500px;
+    background: hsl(240, 100%, 5%);
+}
+h2{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    color: rgb(227, 164, 82);
+}
+
+h3{
+    transition: color 0.3s;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+h3:hover{
+    color: rgb(227, 164, 82);
+}
+.news1,.news2,.news3{
+    font-family: "Inter", sans-serif;
+    color: rgb(143, 143, 143);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -680px;
+    left: 120px;
+    height: 150px;
+    width: 1000px;
+}
+.oldpc,.laptops,.game{
+    position: relative;
+    height: 150px;
+    width: 100px;
+}
+.footer1,.footer2,.footer3{
+    position: relative;
+    top: 1px;
+}
+h4,h5,.para1,.para2,.para3{
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+h4{
+    color: hsl(240, 100%, 5%);
+    font-size: 40px;
+}
+.aga1,.aga2,.aga3{
+    left: 120px;
+    top: -215px;
+}
+.haga1,.haga2,.haga3{
+    cursor: pointer;
+    font-size: 20px;
+    left: 120px;
+    top: -250px;
+    transition: 0.3s;
+}
+.haga1:hover,.haga2:hover,.haga3:hover{
+   color: hsl(5, 85%, 63%);
+}
+.para1,.para2,.para3{
+    top: -270px;
+    left: 120px;
+    font-size: 15px;
+}
+
+/* Nest Hub Max */
+
+@media only screen and (max-width: 1280px) {
+    body{
+        left: -10px;
+    }
+    aside{
+        top: -770px;
+        left: 900px;
+        width: 250px;
+        height: 500px;
+    }
+    h2{
+        position: relative;
+        top: -15px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    ul{
+        left: 590px;
+    }
+    svg{
+        left: 10px;
+    }
+    .image1{
+        left: 110px;
+        width: 750px;
+    }
+    h1{
+        left: 110px;
+    }
+    .p1{
+        font-size: 20px;
+        width: 380px;
+        left: 470px;
+    }
+    button{
+        top: -190px;
+        left: 480px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        top: -700px;
+        left: 115px;
+        width: 1018px;
+        height: 150px;
+    }
+    .haga1,.haga2,.haga3{
+        font-size: 20px;
+        width: 230px;
+    }
+    .para1,.para2,.para3{
+        font-size: 17px;
+        width: 235px;
+    }
+    }
+
+    /* Nest Hub */
+
+@media only screen and (max-width: 1024px) {
+    body{
+        left: 15px;
+    }
+    aside{
+        top: -765px;
+        left: 680px;
+        width: 230px;
+        height: 525px;
+    }
+    h2{
+        top: -30px;
+    }
+    .news1,.news2,.news3{
+        position: relative;
+        top: -30px;
+    }
+    ul{
+        left: 340px;
+    }
+    .icon{
+        left: 10px;
+    }
+    .image1{
+        left: 10px;
+        width: 635px;
+    }
+    h1{
+        left: 10px;
+    }
+    .p1{
+        left: 380px;
+        width: 250px;
+    }
+    button{
+        left: 390px;
+    }
+    footer{
+        height: 170px;
+        justify-content: space-between;
+        left: 10px;
+        top: -730px;
+        width: 905px;
+    }
+    .haga1,.haga2,.haga3{
+        font-size: 14px;
+    }
+    .para1,.para2,.para3{
+        font-size: 12px;
+    }
+    }
+
+    /* Galaxy A51/A71 HORIZONTAL */
+
+    @media screen and (max-width: 914px) {
+        aside{
+            top: -836px;
+            left: 580px;
+            width: 230px;
+            height: 520px;
+        }
+        h2{
+            top: -30px;
+        }
+        .news1,.news2,.news3{
+            position: relative;
+            top: -30px;
+        }
+        ul{
+            width: 585px;
+            top: -40px;
+            left: 250px;
+        }
+        .icon{
+            width: 300px;
+            left: -115px;
+            top: 25px;
+        }
+        .image1{
+            top: -5px;
+            left: -1px;
+            width: 555px;
+        }
+        h1{
+            top: -11px;
+            left: 10px;
+        }
+        .p1{
+            font-size: 17px;
+            top: -280px;
+            left: 360px;
+            width: 200px;
+        }
+        button{
+            top: -280px;
+            left: 360px;
+        }
+        footer{
+            justify-content: space-between;
+            left: 10px;
+            top: -785px;
+            width: 750px;
+        }
+        h4{
+            left: 110px;
+            width: 100px;
+        }
+        .haga1,.haga2,.haga3{
+            left: 110px;
+            width: 170px;
+            font-size: 14px;
+        }
+        .para1,.para2,.para3{
+           left: 110px;
+            width: 180px;
+            font-size: 12px;
+        }
+    }
+
+     /*Iphone 12 Pro HORIZONTAL */
+
+     @media only screen and (max-width: 844px) {
+        aside{
+            width: 170px;
+        }
+        .image1{
+            left: -10px;
+            width: 560px;
+        }
+        ul{
+            left: 190px;
+        }
+        h1{
+            top: -40px;
+        }
+        footer{
+            width: 713px;
+        }
+    }
+
+        /*Galaxy Fold HORZIONTAL*/
+
+        @media only screen and (max-width: 653px) {
+            aside{
+                top: -236px;
+                left: 10px;
+                width: 225px;
+                height: 555px;
+            }
+            h2{
+                top: -30px;
+            }
+            .news1,.news2,.news3{
+                position: relative;
+                top: -30px;
+            }
+            .menu{
+                margin: 0px;
+                width: 80px;
+                height: 100px;
+                left: 520px;
+                top: -30px;
+                display: block;
+            }
+            ul{
+
+                display: none;
+            }
+            .icon{
+                width: 300px;
+                left: -115px;
+                top: 25px;
+            }
+            .image1{
+                top: -5px;
+                left: 13px;
+                width: 580px;
+            }
+            h1{
+                top: -40px;
+                left: 10px;
+            }
+            .p1{
+                font-size: 17px;
+                top: -290px;
+                left: 360px;
+                width: 240px;
+            }
+            button{
+                top: -280px;
+                left: 360px;
+                width: 234px;
+            }
+            footer{
+                height: 400px;
+                flex-direction: column;
+                left: 330px;
+                top: -850px;
+                width: 250px;
+            }
+            .footer1,.footer2,.footer3{
+                height: 230px;
+            }
+            h4{
+                left: 110px;
+                width: 100px;
+            }
+            .haga1,.haga2,.haga3{
+                left: 110px;
+                width: 170px;
+                font-size: 14px;
+            }
+            .para1,.para2,.para3{
+               left: 110px;
+                width: 180px;
+                font-size: 12px;
+            }
+        }    
+
+
+        /* Galaxy A51/A71 VERTICAL */
+       
+    @media only screen and (max-width: 412px) {
+        body{
+            left: 1px;
+            overflow-x: hidden;
+        }
+        .image1{
+            width: 375px;
+            top: -10px;
+            left: 10px;
+        }
+        aside{
+            top: 30px;
+            left: 10px;
+            width: 320px;
+            height: 600px;
+        }
+        h2{
+            left: 5px;
+            font-size: 45px;
+        }
+        h3{
+            position: relative;
+            left: 5px;
+            font-size: 25px;
+        }
+        .pn1{
+            left: 5px;
+            position: relative;
+            font-size: 20px;
+        }
+        ul{
+            display: none;
+        }
+        .menu{
+            display: block;
+            top: -30px;
+            left: 320px;
+            width: 50px;
+            height: 80px;
+        }
+        .icon{
+            width: 100%;
+            height: 60px;
+            left: -155px;
+            top: 20px; 
+        }
+        h1{
+            width: 330px;
+            left: 40px;
+            top: -20px;
+        }
+        .p1{
+            font-size: 35px;
+            top: -40px;
+            left: 10px;
+            width: 380px;
+        }
+        button{
+            font-size: 25px;
+            top: -50px;
+            left: 10px;
+            width: 375px;
+            height: 70px;
+        }
+        footer{
+            width: 100px;
+            height: 900px;
+            left: 10px;
+            top: 70px;
+        }
+        .footer2{
+            left: -180px;
+            width: 200px;
+            height: 300px;
+        }
+        
+        .footer3{
+            left: -500px;
+        }
+        .oldpc{
+            top: 15px;
+            width: 150px;
+            height: 250px;
+        }
+        .aga1{
+            left: 170px;
+            top: -320px;
+            width: 100px;
+        }
+        .haga1{
+            width: 220px;
+            top: -380px;
+            left: 170px;
+        }
+        .para1{
+            top: -400px;
+            left: 170px;
+            width: 200px;
+        }
+        .laptops{
+            top: 10px;
+            left: 180px;
+            width: 150px;
+            height: 250px;
+        }
+        .aga2{
+            left: 350px;
+            top: -320px;
+        }
+        .haga2{
+            width: 220px;
+            left: 350px;
+            top: -370px;
+        }
+        .para2{
+            left: 350px;
+            top: -410px;
+            width: 190px;
+        }
+        .game{
+            top: -65px;
+            left: 500px;
+            width: 150px;
+            height: 250px;
+        }
+        .aga3{
+            left: 670px;
+            top: -390px;
+        }
+        .haga3{
+            width: 220px;
+            left: 670px;
+            top: -450px;
+        }
+        .para3{
+            left: 670px;
+            top: -500px;
+            width: 190px;
+            height: 170px;
+        }
+        .aga1,.aga2,.aga3{
+            font-size: 50px;
+        }
+        .haga1,.haga2,.haga3{
+            font-size: 30px;
+        }
+        .para1,.para2,.para3{
+            font-size: 20px;
+        }
+        }
+    
+    @media only screen and (max-width: 390px) {
+        .icon{
+            left: -140px;
+        }
+        .menu{
+            width: 80px;
+            left: 285px;
+        }
+        .image1{
+            left: 10px;
+            width: 350px;
+        }
+        h1{
+            left: 35px;
+        }
+        .p1{
+            width: 360px;
+        }
+        button{
+            width: 360px;
+        }
+        aside{
+            width: 297px;
+        }
+    }
+
+
+            /* Iphone SE VERTICAL */
+        
+    @media only screen and (max-width: 375px) {
+        .icon{
+            height: 50px;
+            left: -150px;
+            top: 20px;
+        }
+        .image1{
+            width: 340px;
+            height: 300px;
+        }
+        aside{
+            top: 30px;
+            left: 10px;
+            width: 275px;
+            height: 600px;
+        }
+        h2{
+            left: 20px;
+            font-size: 45px;
+        }
+        h3{
+            position: relative;
+            left: 10px;
+            font-size: 20px;
+        }
+        .pn1{
+            left: 10px;
+            position: relative;
+            font-size: 20px;
+        }
+        .menu{
+            display: block;
+            left: 290px;
+            top: -20px;
+            height: 70px;
+        }
+        h1{
+            top: -30px;
+            width: 400px;
+            left: 10px;
+        }
+        .p1{
+            font-size: 30px;
+            top: -40px;
+            left: 10px;
+            width: 340px;
+        }
+        button{
+            font-size: 25px;
+            top: -40px;
+            left: 10px;
+            width: 340px;
+            height: 70px;
+        }
+        footer{
+            left: 10px;
+            top: 100px;
+            width: 250px;
+        }
+        .oldpc{
+            top: -35px;
+            width: 150px;
+            height: 200px;
+        }
+        .aga1{
+            left: 170px;
+            top: -320px;
+        }
+        .haga1{
+            top: -370px;
+            left: 170px;
+            width: 180px;
+        }
+        .para1{
+            top: -400px;
+            left: 170px;
+            width: 200px;
+        }
+        .laptops{
+            left: 180px;
+            top: -100px;
+            width: 150px;
+            height: 200px;
+        }
+        .aga2{
+            left: 350px;
+            top: -360px;
+        }
+        .haga2{
+            width: 200px;
+            left: 350px;
+            top: -410px;
+        }
+        .para2{
+            left: 350px;
+            top: -435px;
+            width: 200px;
+        }
+        .game{
+            left: 500px;
+            top: -230px;
+            width: 150px;
+            height: 200px;
+        }
+        .aga3{
+            left: 670px;
+            top: -500px;
+        }
+        .haga3{
+            width: 250px;
+            left: 670px;
+            top: -550px;
+        }
+        .para3{
+            left: 670px;
+            top: -570px;
+            width: 170px;
+            height: 250px;
+        }
+        .aga1,.aga2,.aga3{
+            font-size: 45px;
+        }
+        .haga1,.haga2,.haga3{
+            font-size: 25px;
+        }
+        .para1,.para2,.para3{
+            font-size: 18px;
+        }
+    }
+        /* Galaxy Fold VERTICAL */
+        
+        @media only screen and (max-width: 280px) {
+            .icon{
+                height: 50px;
+                left: -100px;
+                top: 20px;
+            }
+            .image1{
+                left: -1px;
+                width: 265px;
+                height: 300px;
+            }
+            aside{
+                top: 30px;
+                left: 10px;
+                width: 180px;
+                height: 450px;
+            }
+            h2{
+                left: 8px;
+                font-size: 30px;
+            }
+            h3{
+                position: relative;
+                left: 10px;
+                font-size: 15px;
+            }
+            .pn1{
+                left: 10px;
+                position: relative;
+                font-size: 15px;
+            }
+            .menu{
+                display: block;
+                left: 200px;
+                top: -20px;
+                height: 70px;
+            }
+            h1{
+                font-size: 55px;
+                top: -30px;
+                width: 250px;
+                left: 10px;
+            }
+            .p1{
+                font-size: 25px;
+                top: -40px;
+                left: 10px;
+                width: 250px;
+            }
+            button{
+                font-size: 25px;
+                top: -40px;
+                left: 10px;
+                width: 240px;
+                height: 70px;
+            }
+            footer{
+                left: 10px;
+                top: 100px;
+                width: 250px;
+                height: 500px;
+            }
+            .oldpc{
+                top: -35px;
+                width: 100px;
+                height: 150px;
+            }
+            .aga1{
+                left: 110px;
+                top: -230px;
+                width: 50px;
+            }
+            .haga1{
+                top: -260px;
+                left: 110px;
+                width: 140px;
+            }
+            .para1{
+                top: -290px;
+                left: 110px;
+                width: 150px;
+            }
+            .laptops{
+                left: 30px;
+                top: 140px;
+                width: 100px;
+                height: 150px;
+            }
+            .aga2{
+                width: 50px;
+                left: 140px;
+                top: -50px;
+            }
+            .haga2{
+                width: 140px;
+                top: -80px;
+                left: 140px;
+            }
+            .para2{
+                top: -110px;
+                left: 140px;
+                width: 150px;
+            }
+            .game{
+                left: 200px;
+                top: 325px;
+                width: 100px;
+                height: 150px;
+            }
+            .aga3{
+                left: 310px;
+                top: 130px;
+                width: 50px;
+            }
+            .haga3{
+                width: 140px;
+                top: 100px;
+                left: 310px;
+            }
+            .para3{
+                top: 80px;
+                left: 310px;
+                width: 150px;
+                height: 50px;
+            }
+            .aga1,.aga2,.aga3{
+                font-size: 25px;
+            }
+            .haga1,.haga2,.haga3{
+                font-size: 18px;
+            }
+            .para1,.para2,.para3{
+                font-size: 14px;
+            }
+        }
